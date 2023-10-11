@@ -1,0 +1,89 @@
+
+body {
+    margin: 0px;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: maroon;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+nav h1 {
+    padding-left: 15px;
+}
+
+#navbar-nav li{
+    display: inline-block;
+    padding: 10px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: lightgray;
+}
+
+a:visited {
+    color:lightgray;
+}
+
+.jumbotron {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.avatar-block{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.avatar {
+    border-radius: 100%;
+    border-style: solid;
+    border-color: maroon;
+    border-width: 7px;
+    width: 20%;
+    height: 45%;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.new-block {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 50%;
+}
+
+.quote-block {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+footer {
+    background-color: maroon;
+    text-align: center;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    color: white;
+}
+
+.new-block img{
+    padding-bottom: 0px;
+}
