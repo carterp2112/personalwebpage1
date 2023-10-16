@@ -87,3 +87,12 @@ footer {
 .new-block img{
     padding-bottom: 0px;
 }
+
+.contact {
+    display: block;
+    text-align: center;
+}
+
+section {
+    padding: 10px;
+}
